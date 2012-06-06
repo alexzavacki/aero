@@ -1,0 +1,12 @@
+<?php
+
+require_once __DIR__ . '/../src/Aero/Loader/StandardAutoloader.php';
+
+$loader = new \Aero\Loader\StandardAutoloader();
+
+$loader->registerNamespace(array(
+    'Aero\\Tests' => __DIR__,
+    'Aero'        => __DIR__ . '/../src',
+));
+
+$loader->register();

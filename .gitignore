@@ -1,0 +1,31 @@
+# Framework
+/tests/phpunit.xml
+/tests/autoload.php
+/vendor/
+
+# OS
+.DS_Store
+thumbs.db
+desktop.ini
+
+# Editors
+nbproject/
+.settings/
+.cache
+.project
+.buildpath
+.idea
+
+# SCM
+*/.hg/*
+.hgignore
+.svn/
+.bzr/
+
+# Misc
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
